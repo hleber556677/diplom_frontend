@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/academy": "http://127.0.0.1:8000",
-      "/auth": "http://127.0.0.1:8000",
+      "/academy": "https://diplombackend-production-fbcf.up.railway.app",
+      "/auth": "https://diplombackend-production-fbcf.up.railway.app",
     },
   },
 });

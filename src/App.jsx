@@ -14,7 +14,8 @@ import module1Part2Comic from "./assets/module1/module-1-part-2/comix-2.png";
 import module1Part3Comic from "./assets/module1/module-1-part-3/comix3.png";
 import module1FrontbarHero from "./assets/module1/frontbar-hero1.png";
 
-const API_URL = import.meta.env.VITE_API_URL || "";
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://diplombackend-production-fbcf.up.railway.app";
 const TOKEN_KEY = "access_token";
 const MIN_PASSWORD_LENGTH = 8;
 const BRAND_NAME = "ЦифроГрад";
