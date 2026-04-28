@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === "true" ? "/diplom_api/" : "/",
+  base: "/diplom_frontend/",
   plugins: [react()],
   server: {
     proxy: {
